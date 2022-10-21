@@ -1,0 +1,66 @@
+#bodyCant{
+    margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+    display: block;
+    background-color: #000;
+    max-width: 560px;
+    max-height: fit-content;
+    border-radius: 30px;
+    color: #fff;
+}
+ #innerbody{
+    /* position: relative; */
+    background-color: #0fefef;
+    display: inline-block;
+    width: 32em;
+    margin: 2em 2em 1em 1em;
+    height: 55em;;
+    border-radius: 10px;
+} 
+.screen{
+    margin: 2em 1em 2em 3em;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 350px;
+    height: 150px;
+    color: #000;
+}
+.bottons{
+    margin: 1em 1em 6em 6em;
+    padding: 10px;
+    display: inline-block;
+    width: 350px;
+    background-color: #dfdf0f;
+    border-radius: 10px;
+    position: relative;
+}
+#Boxs{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 6px 5px;
+}
+.box1, .box2, .box3,.box4,.box5, 
+.box6, .box7, .box8, .box9, .box10,
+.box11, .box12, .box13, .box14, 
+.box15, .box16{
+    margin:  0 auto;
+    color: #000;
+    background-color: #fff;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Boxs .div:nth-child(16){
+    grid-column: 16/17 ;
+
+}

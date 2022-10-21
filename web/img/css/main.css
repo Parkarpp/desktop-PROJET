@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    text-transform:capitalize;
+    font-feature-settings: normal;
+    font-variant-caps: all-petite-caps;
+    margin-left:20%;
+  
+    
+    
+
+}
+img{
+    padding: inherit;
+    position:sticky;
+    align-content: center;
+    height: 50;
+    width: 60;
+    flex-wrap: wrap;
+    object-position: center;
+    background-size:contain;
+    margin-left: 20%;
+    
+}
+a{
+    color: brown;
+    position: relative;
+    
+}
+    #header{
+    margin-left: 20%;
+    background-color: gray;
+}
+
+h2, h3, h4 h5{
+    font-family: sans-serif;
+    background-color: gray;
+    font-size: 16px;
+} 
+#navigation{
+    font-style: normal;
+    
+}
+#header{
+        margin-right: 0%;
+        margin-left: 0%
+        background-color: orange;
+        background-position: center;
+    
+}
+
